@@ -1,0 +1,12 @@
+sort1 uses: bubble sort
+
+How do you know?: when arrays are sorted its Ω is near to n Time to sort sorted50000.txt almost 0.
+                  if no swaps quit.
+
+sort2 uses: merge sort
+
+How do you know?: Time to sort reversed 50000 is almost 0. Seems like O(logn)
+
+sort3 uses: selection sort
+
+How do you know?: When we run sorted50000 its the worst of the two avobe because it haves a Φ(N^2)

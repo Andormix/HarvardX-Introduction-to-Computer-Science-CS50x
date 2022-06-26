@@ -1,0 +1,29 @@
+
+METHOD RECURSIVE_LEFT_PYRAMID(IN BLOCKS, INT SIZE)
+START_SEQUENCE
+
+    IF SIZE == 0 THEN
+
+        # No output
+
+    ELSE
+
+        FROM 1 TO (SIZE - BLOCKS) INC 1 DO
+
+            WRITE SPACE
+
+        END_FROM
+
+        FROM 1 TO BLOCKS INC 1 DO
+
+            WRITE #
+
+        END_from
+
+        WREITE NEW LINE
+
+    END_IF
+
+    RECURSIVE_LEFT_PYRAMID(BLOCKS - 1, SIZE)
+
+END_SEQUENCE
